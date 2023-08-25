@@ -14,4 +14,5 @@ sudo sh -c "echo WLR_RENDERER_ALLOW_SOFTWARE=1 >> $ETC_ENV"
 sudo pacman -Sy hyprland foot otf-ipafont wofi firefox-i18n-ja --needed --noconfirm
 
 # Hyprland の設定ファイルをコピー
+mkdir -p .config/hypr/
 cp config/hypr/hyprland.conf $HOME/.config/hypr/
