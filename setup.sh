@@ -24,6 +24,13 @@ cp config/foot/foot.ini $HOME/.config/foot/
 # その他のパッケージインストール
 sudo pacman -Sy neovim hyprpaper firefox-i18n-ja thunar --needed --noconfirm
 
+# yay インストール
+git clone https://aur.archlinux.org/yay-bin
+cd yay-bin
+makepkg -si --noconfirm
+cd ..
+rm -rf yay-bin
+
 ########################################
 # fcitx5 インストール
 ########################################
