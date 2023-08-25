@@ -19,7 +19,7 @@ cp config/hypr/hyprland.conf $HOME/.config/hypr/
 
 # foot の設定ファイルをコピー
 mkdir -p $HOME/.config/foot/
-cp config/foot/config.ini $HOME/.config/foot/
+cp config/foot/foot.ini $HOME/.config/foot/
 
 # 再起動
 reboot
