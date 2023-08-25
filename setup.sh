@@ -16,3 +16,6 @@ sudo pacman -Sy hyprland foot otf-ipafont wofi firefox-i18n-ja --needed --noconf
 # Hyprland の設定ファイルをコピー
 mkdir -p $HOME/.config/hypr/
 cp config/hypr/hyprland.conf $HOME/.config/hypr/
+
+# 再起動
+reboot
