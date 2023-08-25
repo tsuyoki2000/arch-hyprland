@@ -22,7 +22,7 @@ mkdir -p $HOME/.config/foot/
 cp config/foot/foot.ini $HOME/.config/foot/
 
 # その他のパッケージインストール
-sudo pacman -Sy neovim hyprpaper firefox-i18n-ja thunar --needed --noconfirm
+sudo pacman -Sy neovim waybar hyprpaper firefox-i18n-ja thunar --needed --noconfirm
 
 # yay インストール
 git clone https://aur.archlinux.org/yay-bin
@@ -34,6 +34,13 @@ rm -rf yay-bin
 ########################################
 # fcitx5 インストール
 ########################################
+sudo pacman -Sy fcitx5-mozc fcitx5-configtool --needed --noconfirm
+# /etc/environment にお決まりの呪文を追加
+# 「fcitx5」と書かなくても「fcitx」で動作する
+ETC_ENV="/etc/environment"
+sudo sh -c "echo GTK_IM_MODULE=fcitx >> $ETC_ENV"
+sudo sh -c "echo QT_IM_MODULE=fcitx >> $ETC_ENV"
+sudo sh -c "echo XMODIFIERS=@im=fcitx >> $ETC_ENV"
 
 
 ########################################
