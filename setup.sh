@@ -11,7 +11,7 @@ sudo sh -c "echo WLR_NO_HARDWARE_CURSORS=1 >> $ETC_ENV"
 sudo sh -c "echo WLR_RENDERER_ALLOW_SOFTWARE=1 >> $ETC_ENV"
 
 # パッケージのインストール
-sudo pacman -Sy hyprland foot otf-ipafont wofi firefox-i18n-ja --needed --noconfirm
+sudo pacman -Sy hyprland foot otf-ipafont wofi neovim firefox-i18n-ja --needed --noconfirm
 
 # Hyprland の設定ファイルをコピー
 mkdir -p $HOME/.config/hypr/
