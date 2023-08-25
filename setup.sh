@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ######################################################
-# Hyprland を セットアップするためのシェルスクリプト #
+# Hyprland をセットアップするためのシェルスクリプト #
 ######################################################
 
 # /etc/environment の編集（個人設定するファイルが分からん。.profile？）
@@ -21,10 +21,17 @@ cp config/hypr/hyprland.conf $HOME/.config/hypr/
 mkdir -p $HOME/.config/foot/
 cp config/foot/foot.ini $HOME/.config/foot/
 
-# 追加パッケージインストール
-sudo pacman -Sy neovim firefox-i18n-ja --needed --noconfirm
+# その他のパッケージインストール
+sudo pacman -Sy neovim hyprpaper firefox-i18n-ja thunar --needed --noconfirm
 
-# rangerインストール
+########################################
+# fcitx5 インストール
+########################################
+
+
+########################################
+# ranger インストール
+########################################
 sudo pacman -Sy ranger highlight sxiv --needed --noconfirm
 # ranger設定ファイルの作成
 ranger --copy-config all
