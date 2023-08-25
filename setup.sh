@@ -22,7 +22,7 @@ mkdir -p $HOME/.config/foot/
 cp config/foot/foot.ini $HOME/.config/foot/
 
 # その他のパッケージインストール
-sudo pacman -Sy neovim waybar hyprpaper firefox-i18n-ja thunar --needed --noconfirm
+sudo pacman -Sy neovim waybar ttf-font-awesome hyprpaper firefox-i18n-ja thunar --needed --noconfirm
 
 # yay インストール
 git clone https://aur.archlinux.org/yay-bin
