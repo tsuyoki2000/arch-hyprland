@@ -17,5 +17,9 @@ sudo pacman -Sy hyprland foot otf-ipafont wofi neovim firefox-i18n-ja --needed -
 mkdir -p $HOME/.config/hypr/
 cp config/hypr/hyprland.conf $HOME/.config/hypr/
 
+# foot の設定ファイルをコピー
+mkdir -p $HOME/.config/foot/
+cp config/foot/config.ini $HOME/.config/foot/
+
 # 再起動
 reboot
