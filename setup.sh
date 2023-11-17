@@ -21,8 +21,11 @@ cp config/hypr/hyprland.conf $HOME/.config/hypr/
 mkdir -p $HOME/.config/foot/
 cp config/foot/foot.ini $HOME/.config/foot/
 
+# waybar & hyprpaper 
+sudo pacman -Sy waybar ttf-font-awesome hyprpaper --needed --noconfirm
+
 # その他のパッケージインストール
-sudo pacman -Sy neovim waybar ttf-font-awesome hyprpaper firefox-i18n-ja thunar --needed --noconfirm
+sudo pacman -Sy neovim firefox-i18n-ja pcmanfm --needed --noconfirm
 
 # yay インストール
 git clone https://aur.archlinux.org/yay-bin
