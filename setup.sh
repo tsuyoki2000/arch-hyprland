@@ -4,7 +4,7 @@
 # Hyprland をセットアップするためのシェルスクリプト #
 ######################################################
 
-# /etc/environment の編集（個人設定するファイルが分からん。.profile？）
+# /etc/environment の編集（個人設定するファイルが分からん。.profile？➜config.fish に記述すれば良いのでは？）
 ETC_ENV="/etc/environment"
 sudo sh -c "echo EDITOR=nvim >> $ETC_ENV"
 sudo sh -c "echo WLR_NO_HARDWARE_CURSORS=1 >> $ETC_ENV"
