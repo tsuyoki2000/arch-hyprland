@@ -21,3 +21,10 @@ sed -i "s/$mainMod, Q, exec, $terminal/$mainMod, RETURN, exec, $terminal/g" $HOM
 mkdir -p $HOME/.config/foot/
 cp /etc/xdg/foot/foot.ini $HOME/.config/foot/
 
+# foot.ini の編集
+sed -i "s/# font=monospace:size=8/font=monospace:size=12/g" $HOME/.config/foot/foot.ini
+sed -i "s/# pad=0x0/pad=5x5/g" $HOME/.config/foot/foot.ini
+
+# Hyprland の起動の仕方
+# 通常通り、ArchLinux のコンソールでログイン後、
+# 「$ Hyprland」と入力すれば、起動する。
