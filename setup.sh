@@ -21,9 +21,21 @@ function yellow() {
     echo -e "$YELLOW$*$NORMAL"
 }
 
-# hyprland 最小構成
+# hyprland（最小構成）のインストール
 green "Installing Hyprland Minimal..."
 bash install-script/hyprland-minimal.sh
+
+# ログインマネージャー（ディスプレイマネージャー）のインストール
+# waybar のインストール
+# pacman-conf の編集
+# fish のインストール
+# yay のインストール
+# fcitx5 のインストール
+# Neovim のインストール
+# ブラウザのインストール
+# CLI ファイルマネージャーのインストール
+# GUI ファイルマネージャーのインストール
+# 自分用の設定
 
 # 再起動
 green ""
