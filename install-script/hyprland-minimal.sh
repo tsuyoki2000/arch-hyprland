@@ -17,3 +17,7 @@ sed -i "s/$terminal = kitty/$terminal = foot/g" $HOME/.config/hypr/hyprland.conf
 sed -i "s/kb_options =/kb_options = ctrl:nocaps/g" $HOME/.config/hypr/hyprland.conf
 sed -i "s/$mainMod, Q, exec, $terminal/$mainMod, RETURN, exec, $terminal/g" $HOME/.config/hypr/hyprland.conf
 
+# foot の設定ファイルをコピー
+mkdir -p $HOME/.config/foot/
+cp /etc/xdg/foot/foot.ini $HOME/.config/foot/
+
