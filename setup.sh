@@ -35,6 +35,9 @@ green "Installing DisplayManager..."
 bash .install/display-manager.sh
 
 # waybar のインストール
+green "Installing waybar..."
+bash .install/waybar.sh
+
 # yay のインストール
 green "Installing yay-bin..."
 bash .install/yay-bin.sh
@@ -52,3 +55,5 @@ green ""
 green "Install Complete."
 green "Type 'reboot' or 'poweroff'"
 #reboot
+
+pwd
