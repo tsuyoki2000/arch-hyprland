@@ -22,6 +22,10 @@ function green() {
     echo -e "$GREEN$*$NORMAL"
 }
 
+# pacman-conf の編集
+green "Editing pacman.conf..."
+bash .install/pacman-conf.sh
+
 # hyprland（最小構成）のインストール
 green "Installing Hyprland Minimal..."
 bash .install/hyprland-minimal.sh
@@ -31,9 +35,11 @@ green "Installing DisplayManager..."
 bash .install/display-manager.sh
 
 # waybar のインストール
-# pacman-conf の編集
-# fish のインストール
 # yay のインストール
+green "Installing yay..."
+bash .install/yay.sh
+
+# fish のインストール
 # fcitx5 のインストール
 # Neovim のインストール
 # ブラウザのインストール
