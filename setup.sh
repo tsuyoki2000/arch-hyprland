@@ -13,12 +13,13 @@ function red() {
     echo -e "$RED$*$NORMAL"
 }
 
-function green() {
-    echo -e "$GREEN$*$NORMAL"
-}
-
 function yellow() {
     echo -e "$YELLOW$*$NORMAL"
+}
+
+function green() {
+    echo
+    echo -e "$GREEN$*$NORMAL"
 }
 
 # hyprland（最小構成）のインストール
