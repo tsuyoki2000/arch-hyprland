@@ -4,14 +4,9 @@
 # ディスプレイマネージャーをセットアップするためのシェルスクリプト #
 ####################################################################
 
-# sddm
-sudo pacman -Sy sddm --needed --noconfirm
-sudo systemctl -f enable sddm
+dm="sddm"
+#dm="ly"
+#dm="gdm"
 
-# ly
-# sudo pacman -Sy ly --needed --noconfirm
-# sudo systemctl -f enable ly
-
-# gdm
-# sudo pacman -Sy gdm --needed --noconfirm
-# sudo systemctl -f enable gdm
+sudo pacman -Sy $dm --needed --noconfirm
+sudo systemctl -f enable $dm
