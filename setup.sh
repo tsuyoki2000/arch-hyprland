@@ -23,7 +23,7 @@ function yellow() {
 
 # hyprland（最小構成）のインストール
 green "Installing Hyprland Minimal..."
-bash install-script/hyprland-minimal.sh
+bash .install/hyprland-minimal.sh
 
 # ログインマネージャー（ディスプレイマネージャー）のインストール
 # waybar のインストール
