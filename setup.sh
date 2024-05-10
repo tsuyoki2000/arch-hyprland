@@ -36,8 +36,8 @@ bash .install/display-manager.sh
 
 # waybar のインストール
 # yay のインストール
-green "Installing yay..."
-bash .install/yay.sh
+green "Installing yay-bin..."
+bash .install/yay-bin.sh
 
 # fish のインストール
 # fcitx5 のインストール
