@@ -5,7 +5,7 @@
 ################################################################
 
 # 基本パッケージのインストール
-sudo pacman -Sy hyprland foot otf-ipafont wofi wl-clipboard --needed --noconfirm
+sudo pacman -Sy hyprland foot otf-ipafont wofi --needed --noconfirm
 
 # Hyprland の設定ファイルをコピー
 mkdir -p $HOME/.config/hypr/
