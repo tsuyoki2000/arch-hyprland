@@ -25,7 +25,10 @@ function yellow() {
 green "Installing Hyprland Minimal..."
 bash .install/hyprland-minimal.sh
 
-# ログインマネージャー（ディスプレイマネージャー）のインストール
+# ディスプレイマネージャー（ログインマネージャー）のインストール
+green "Installing DisplayManager..."
+bash .install/display-manager.sh
+
 # waybar のインストール
 # pacman-conf の編集
 # fish のインストール
