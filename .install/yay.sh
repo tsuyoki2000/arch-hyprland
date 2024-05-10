@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#################################################
-# yay を インストールするためのシェルスクリプト #
-#################################################
+################################################
+# yay をインストールするためのシェルスクリプト #
+################################################
 cd
-git clone https://aur.archlinux.org/yay-bin
-cd yay-bin
+git clone https://aur.archlinux.org/yay
+cd yay
 makepkg -si --noconfirm
 cd
-rm -rf yay-bin
+rm -rf yay
