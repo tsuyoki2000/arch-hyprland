@@ -7,6 +7,8 @@
 # パッケージのインストール
 sudo pacman -Sy fish --needed --noconfirm
 
+echo "set fish_greeting" >> $HOME/.config/fish/config.fish
+
 # シェルの変更
 sudo chsh -s /bin/fish $USER
 
