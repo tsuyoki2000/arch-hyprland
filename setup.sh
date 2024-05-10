@@ -46,7 +46,10 @@ bash .install/yay-bin.sh
 green "Installing fish..."
 bash .install/fish.sh
 
-# fcitx5 のインストール
+# # fcitx5 のインストール
+# green "Installing fcitx5..."
+# bash .install/fcitx5-system.sh
+
 # Neovim のインストール
 # ブラウザのインストール
 # CLI ファイルマネージャーのインストール
