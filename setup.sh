@@ -43,6 +43,9 @@ green "Installing yay-bin..."
 bash .install/yay-bin.sh
 
 # fish のインストール
+green "Installing fish..."
+bash .install/fish.sh
+
 # fcitx5 のインストール
 # Neovim のインストール
 # ブラウザのインストール
