@@ -51,9 +51,7 @@ bash .install/yay-bin.sh
 # 自分用の設定
 
 # 再起動
-green ""
 green "Install Complete."
 green "Type 'reboot' or 'poweroff'"
 #reboot
 
-pwd
