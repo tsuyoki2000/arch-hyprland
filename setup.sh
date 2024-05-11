@@ -30,9 +30,9 @@ bash .install/pacman-conf.sh
 green "Installing Hyprland Minimal..."
 bash .install/hyprland-minimal.sh
 
-# waybar のインストール
-green "Installing waybar..."
-bash .install/waybar.sh
+# yay のインストール
+green "Installing yay-bin..."
+bash .install/yay-bin.sh
 
 # fcitx5 のインストール
 green "Installing fcitx5..."
@@ -42,16 +42,22 @@ bash .install/fcitx5-system.sh
 green "Installing FileManager(GUI)..."
 bash .install/filemanager-gui.sh
 
-# ブラウザのインストール
+# その他のツールのインストール
+green "Installing OtherTool..."
+bash .install/other-tool.sh
+
 # テキストエディタ のインストール
+green "Installing TextEditor..."
+bash .install/text-editor.sh
+
+# waybar のインストール
+green "Installing waybar..."
+bash .install/waybar.sh
 
 # ディスプレイマネージャー（ログインマネージャー）のインストール
 green "Installing DisplayManager..."
 bash .install/display-manager.sh
 
-# yay のインストール
-green "Installing yay-bin..."
-bash .install/yay-bin.sh
 
 # ----- 自分用の設定（ここから） -----
 
