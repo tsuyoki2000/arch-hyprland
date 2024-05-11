@@ -30,6 +30,10 @@ bash .install/pacman-conf.sh
 green "Installing Hyprland Minimal..."
 bash .install/hyprland-minimal.sh
 
+# yay のインストール
+green "Installing yay-bin..."
+bash .install/yay-bin.sh
+
 # ディスプレイマネージャー（ログインマネージャー）のインストール
 green "Installing DisplayManager..."
 bash .install/display-manager.sh
@@ -38,17 +42,13 @@ bash .install/display-manager.sh
 green "Installing waybar..."
 bash .install/waybar.sh
 
-# yay のインストール
-green "Installing yay-bin..."
-bash .install/yay-bin.sh
+# fcitx5 のインストール
+green "Installing fcitx5..."
+bash .install/fcitx5-system.sh
 
-# fish のインストール
-green "Installing fish..."
-bash .install/fish.sh
-
-# # fcitx5 のインストール
-# green "Installing fcitx5..."
-# bash .install/fcitx5-system.sh
+# # fish のインストール
+# green "Installing fish..."
+# bash .install/fish.sh
 
 # Neovim のインストール
 # ブラウザのインストール
