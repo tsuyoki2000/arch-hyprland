@@ -39,6 +39,9 @@ green "Installing fcitx5..."
 bash .install/fcitx5-system.sh
 
 # GUI ファイルマネージャーのインストール
+green "Installing FileManager(GUI)..."
+bash .install/filemanager-gui.sh
+
 # ブラウザのインストール
 # テキストエディタ のインストール
 
