@@ -5,7 +5,7 @@
 ############################################################
 
 # パッケージのインストール
-sudo pacman -Sy nvim --needed --noconfirm
+sudo pacman -Sy neovim --needed --noconfirm
 
 # /etc/environment にデフォルトアプリを設定
 ETC_ENV="/etc/environment"
