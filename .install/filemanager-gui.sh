@@ -8,4 +8,5 @@
 # thunar（thunar本体）
 # thunar-archive-plugin（コンテキストメニューに圧縮・解凍のメニューを追加）
 # file-roller（GNOME の圧縮・解凍ソフト）
+echo "Installing thunar..."
 sudo pacman -Syu thunar thunar-archive-plugin file-roller --needed --noconfirm
