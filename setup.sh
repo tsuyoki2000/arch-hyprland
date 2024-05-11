@@ -34,10 +34,6 @@ bash .install/hyprland-minimal.sh
 green "Installing yay-bin..."
 bash .install/yay-bin.sh
 
-# ディスプレイマネージャー（ログインマネージャー）のインストール
-green "Installing DisplayManager..."
-bash .install/display-manager.sh
-
 # waybar のインストール
 green "Installing waybar..."
 bash .install/waybar.sh
@@ -45,6 +41,10 @@ bash .install/waybar.sh
 # fcitx5 のインストール
 green "Installing fcitx5..."
 bash .install/fcitx5-system.sh
+
+# ディスプレイマネージャー（ログインマネージャー）のインストール
+green "Installing DisplayManager..."
+bash .install/display-manager.sh
 
 # # fish のインストール
 # green "Installing fish..."
