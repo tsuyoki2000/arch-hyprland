@@ -46,10 +46,6 @@ bash .install/filemanager-gui.sh
 green "Installing OtherTool..."
 bash .install/other-tool.sh
 
-# テキストエディタ のインストール
-green "Installing TextEditor..."
-bash .install/text-editor.sh
-
 # waybar のインストール
 green "Installing waybar..."
 bash .install/waybar.sh
@@ -58,8 +54,10 @@ bash .install/waybar.sh
 green "Installing DisplayManager..."
 bash .install/display-manager.sh
 
-
 # ----- 自分用の設定（ここから） -----
+# NvChad（Neovim のディストリビューション）のインストール
+green "Installing NvChad..."
+bash .install/neovim-nvchad.sh
 
 # # fish のインストール
 # green "Installing fish..."

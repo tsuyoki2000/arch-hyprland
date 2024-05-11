@@ -5,7 +5,7 @@
 ################################################################
 
 # 基本パッケージのインストール
-sudo pacman -Sy hyprland foot otf-ipafont wofi --needed --noconfirm
+sudo pacman -Sy hyprland foot otf-ipafont wofi neovim --needed --noconfirm
 
 # Hyprland の設定ファイルをコピー
 mkdir -p $HOME/.config/hypr/
@@ -28,6 +28,10 @@ cp /etc/xdg/foot/foot.ini $HOME/.config/foot/
 # foot.ini の編集
 sed -i "s/# font=monospace:size=8/font=monospace:size=12/g" $HOME/.config/foot/foot.ini
 sed -i "s/# pad=0x0/pad=5x5/g" $HOME/.config/foot/foot.ini
+
+# /etc/environment にデフォルトアプリとして Neovim を設定
+ETC_ENV="/etc/environment"
+sudo sh -c "echo EDITOR=nvim >> $ETC_ENV"
 
 # Hyprland の起動の仕方
 # 通常通り、ArchLinux のコンソールでログイン後、
