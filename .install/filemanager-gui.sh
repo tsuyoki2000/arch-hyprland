@@ -19,4 +19,3 @@ sed -i "s/$fileManager = dolphin/$fileManager = thunar/g" $HOME/.config/hypr/hyp
 # kde の dolphin
 # GNOME の nautilus
 # Cinnamon の nemo
-# CuteFish の cutefish-filemanager
