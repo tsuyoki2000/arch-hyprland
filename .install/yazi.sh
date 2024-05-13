@@ -11,7 +11,7 @@ sudo pacman -Sy yazi --needed --noconfirm
 # yazi は設定ファイルを持たないので、デフォルトの設定を
 # コンフィグファイルに書き起こしたものをネットからダウンロードする
 mkdir -p $HOME/.config/yazi
-curl https://github.com/sxyazi/yazi/tree/main/yazi-config/preset/keymap.toml -O $HOME/.config/yazi/
+curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/keymap.toml -O $HOME/.config/yazi/
 # https://github.com/sxyazi/yazi/tree/main/yazi-config/preset/theme.toml
 # https://github.com/sxyazi/yazi/tree/main/yazi-config/preset/yazi.toml
 
@@ -25,3 +25,14 @@ curl https://github.com/sxyazi/yazi/tree/main/yazi-config/preset/keymap.toml -O 
 #   - ターミナルに表示する事も可能だが、ドット絵みたいになる。
 #
 # - ueberzugpp
+
+
+# yazi インストール時に提案されるその他のパッケージ
+# - jq：JSONプレビュー
+# - ffmpegthumbnailer：ビデオサムネイル
+# - poppler：PDFプレビュー
+# - unarchiver：アーカイブプレビュー
+# - fd：ファイル検索？
+# - ripgrep：ファイル内容検索
+# - fzf：ディレクトリジャンプ
+# - zoxide：ディレクトリジャンプ
