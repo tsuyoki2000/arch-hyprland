@@ -11,9 +11,9 @@ sudo pacman -Sy yazi --needed --noconfirm
 # yazi は設定ファイルを持たないので、デフォルトの設定を
 # コンフィグファイルに書き起こしたものをネットからダウンロードする
 mkdir -p $HOME/.config/yazi
-curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/keymap.toml -O $HOME/.config/yazi/
-# https://github.com/sxyazi/yazi/tree/main/yazi-config/preset/theme.toml
-# https://github.com/sxyazi/yazi/tree/main/yazi-config/preset/yazi.toml
+curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/yazi.toml -o $HOME/.config/yazi/yazi.toml
+curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/keymap.toml -o $HOME/.config/yazi/keymap.toml
+curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/theme.toml -o $HOME/.config/yazi/theme.toml
 
 # 画像プレビュー
 # - imgcat
