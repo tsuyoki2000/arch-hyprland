@@ -20,6 +20,8 @@ sed -i "s/$terminal = kitty/$terminal = foot/g" $HOME/.config/hypr/hyprland.conf
 sed -i "s/kb_options =/kb_options = ctrl:nocaps/g" $HOME/.config/hypr/hyprland.conf
 # （ターミナルの起動ショートカットを「Super+q」から「Super+Enter」に変更）
 sed -i "s/$mainMod, Q, exec, $terminal/$mainMod, RETURN, exec, $terminal/g" $HOME/.config/hypr/hyprland.conf
+# （wofi の起動ショートカットを「Super+r」から「Super+Space」に変更）
+sed -i "s/$mainMod, R, exec, $menu/$mainMod, SPACE, exec, $menu/g" $HOME/.config/hypr/hyprland.conf
 
 # foot の設定ファイルをコピー
 mkdir -p $HOME/.config/foot/
