@@ -64,7 +64,9 @@ bash .install/neovim-nvchad.sh
 # green "Installing fish..."
 # bash .install/fish.sh
 
-# CLI ファイルマネージャーのインストール
+# # CLI ファイルマネージャーのインストール
+# green "Installing FileManager(CLI)..."
+# bash .install/filemanager-cli.sh
 
 # ----- 自分用の設定（ここまで -----
 
