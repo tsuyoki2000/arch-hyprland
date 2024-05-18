@@ -15,18 +15,6 @@ curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/yazi.
 curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/keymap.toml -o $HOME/.config/yazi/keymap.toml
 curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/theme.toml -o $HOME/.config/yazi/theme.toml
 
-# 画像プレビュー
-# - imgcat
-#   - yay -S imgcat
-#   - go製
-#   - コンパイルも比較的早い
-#   - インストールするだけで、画像が表示された
-#   - 画像があるフォルダに移動した際、少し固まるが基本的に高速で表示される
-#   - ターミナルに表示する事も可能だが、ドット絵みたいになる。
-#
-# - ueberzugpp
-
-
 # yazi インストール時に提案されるその他のパッケージ
 # - jq：JSONプレビュー
 # - ffmpegthumbnailer：ビデオサムネイル
@@ -36,3 +24,19 @@ curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/theme
 # - ripgrep：ファイル内容検索
 # - fzf：ディレクトリジャンプ
 # - zoxide：ディレクトリジャンプ
+
+
+# 画像プレビューについて
+# デフォルトでプレビュー機能があるようだ
+
+# その他 yazi とは関係ないが、以下のようなものもある。
+# - ueberzugpp
+# - imgcat
+#   - yay -S imgcat
+#   - go製
+#   - コンパイルも比較的早い
+#   - インストールするだけで、画像が表示された
+#   - 画像があるフォルダに移動した際、少し固まるが基本的に高速で表示される
+#   - ターミナルに表示する事も可能だが、ドット絵みたいになる。
+
+
