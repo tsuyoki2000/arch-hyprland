@@ -58,18 +58,6 @@ bash .install/display-manager.sh
 green "Installing NvChad..."
 bash .install/neovim-nvchad.sh
 
-# ----- 自分用の設定（ここから） -----
-
-# # fish のインストール
-# green "Installing fish..."
-# bash .install/fish.sh
-
-# # CLI ファイルマネージャーのインストール
-# green "Installing FileManager(CLI)..."
-# bash .install/filemanager-cli.sh
-
-# ----- 自分用の設定（ここまで -----
-
 # 再起動
 green "Install Complete."
 green "Type 'reboot' or 'poweroff'"
