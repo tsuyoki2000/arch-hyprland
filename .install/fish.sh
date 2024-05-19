@@ -17,8 +17,8 @@ sudo chsh -s /bin/fish $USER
 # $ パスワード入力
 # $ /bin/fish
 
-# # 設定ファイルの作成
-# FISH_CONF=$HOME/.config/fish/config.fish
-# mkdir -p $(dirname $FISH_CONF)
-# echo "set fish_greeting" >> $FISH_CONF
+# 設定ファイルの作成
+FISH_CONF=$HOME/.config/fish/config.fish
+mkdir -p $(dirname $FISH_CONF)
+echo "set fish_greeting" >> $FISH_CONF
 
