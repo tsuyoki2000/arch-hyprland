@@ -58,6 +58,11 @@ bash .install/display-manager.sh
 green "Installing NvChad..."
 bash .install/neovim-nvchad.sh
 
+# hypridle と hyprlock のインストール
+green "Installing hypridle and hyprlock..."
+bash .installl/hypridle-hyprlock.sh
+
+
 # 再起動
 green "Install Complete."
 green "Type 'reboot' or 'poweroff'"
