@@ -60,7 +60,7 @@ bash .install/neovim-nvchad.sh
 
 # hypridle と hyprlock のインストール
 green "Installing hypridle and hyprlock..."
-bash .installl/hypridle-hyprlock.sh
+bash .install/hypridle-hyprlock.sh
 cp dotfiles/hypr/hypridle.conf $HOME/.config/hypr/
 
 
