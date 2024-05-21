@@ -15,7 +15,7 @@ dunst
 fzf
 ripgrep
 htop
-neofetch
+fastfetch
 lxappearance
 arc-gtk-theme
 firefox-i18n-ja
