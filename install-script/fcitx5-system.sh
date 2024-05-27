@@ -3,18 +3,18 @@
 ########################################################
 # Fcitx5-mozc をインストールするためのシェルスクリプト #
 ########################################################
-ETC_ENV="/etc/environment"
+#ETC_ENV="/etc/environment"
 
 # パッケージのインストール
-# fcitx5-mozc（fcitx5本体）
-# fcitx5-configtool（fcitx5設定ツール）
-sudo pacman -Sy fcitx5-mozc fcitx5-configtool --needed --noconfirm
+# fcitx5-im（fcitx5 パッケージ一式）
+# fcitx5-mozc（fcitx5 用の mozc）
+sudo pacman -Sy fcitx5-im fcitx5-mozc --needed --noconfirm
 
 # /etc/environment にお決まりの呪文を追加
 # 「=fcitx5」と書かなくても「=fcitx」で動作する
-sudo sh -c "echo GTK_IM_MODULE=fcitx >> $ETC_ENV"
-sudo sh -c "echo QT_IM_MODULE=fcitx >> $ETC_ENV"
-sudo sh -c "echo XMODIFIERS=@im=fcitx >> $ETC_ENV"
+#sudo sh -c "echo GTK_IM_MODULE=fcitx >> $ETC_ENV"
+#sudo sh -c "echo QT_IM_MODULE=fcitx >> $ETC_ENV"
+#sudo sh -c "echo XMODIFIERS=@im=fcitx >> $ETC_ENV"
 
 # 自動起動を hyprland.conf に追加
 echo "exec-once = fcitx5" >> $HOME/.config/hypr/hyprland.conf
