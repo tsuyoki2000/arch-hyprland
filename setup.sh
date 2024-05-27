@@ -24,43 +24,45 @@ function green() {
 
 # pacman-conf の編集
 green "Editing pacman.conf..."
-bash .install/pacman-conf.sh
+bash install-script/pacman-conf.sh
 
 # hyprland（最小構成）のインストール
 green "Installing Hyprland Minimal..."
-bash .install/hyprland-minimal.sh
+bash install-script/hyprland-minimal.sh
 
 # yay のインストール
 green "Installing yay-bin..."
-bash .install/yay-bin.sh
+bash install-script/yay-bin.sh
 
 # fcitx5 のインストール
 green "Installing fcitx5..."
-bash .install/fcitx5-system.sh
+bash install-script/fcitx5-system.sh
 
 # GUI ファイルマネージャーのインストール
 green "Installing FileManager(GUI)..."
-bash .install/filemanager-gui.sh
+bash install-script/filemanager-gui.sh
 
 # その他のツールのインストール
 green "Installing OtherTool..."
-bash .install/other-tool.sh
+bash install-script/other-tool.sh
 
 # waybar のインストール
 green "Installing waybar..."
-bash .install/waybar.sh
+bash install-script/waybar.sh
 
 # ディスプレイマネージャー（ログインマネージャー）のインストール
 green "Installing DisplayManager..."
-bash .install/display-manager.sh
+bash install-script/display-manager.sh
 
 # NvChad（Neovim のディストリビューション）のインストール
 green "Installing NvChad..."
-bash .install/neovim-nvchad.sh
+bash install-script/neovim-nvchad.sh
 
 # hypridle と hyprlock のインストール
 green "Installing hypridle and hyprlock..."
-bash .install/hypridle-hyprlock.sh
+bash install-script/hypridle-hyprlock.sh
+
+# wlogout
 
 
 # 再起動
