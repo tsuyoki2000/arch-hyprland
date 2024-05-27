@@ -36,7 +36,7 @@ bash install-script/yay-bin.sh
 
 # fcitx5 のインストール
 green "Installing fcitx5..."
-bash install-script/fcitx5-system.sh
+bash install-script/fcitx5-hyprland.sh
 
 # GUI ファイルマネージャーのインストール
 green "Installing FileManager(GUI)..."
