@@ -9,7 +9,7 @@ sudo pacman -Syu hyprland foot otf-ipafont wofi neovim --needed --noconfirm
 
 # Hyprland の設定ファイルをコピー
 mkdir -p $HOME/.config/hypr/
-cp /usr/share/hyprland/hyprland.conf $HOME/.config/hypr/
+cp /usr/share/hypr/hyprland.conf $HOME/.config/hypr/
 
 # hyprland.conf の編集
 # （操作メッセージを無効化）
