@@ -24,15 +24,15 @@ function green() {
 
 # fish のインストール
 green "Installing fish..."
-bash .install/fish.sh
+bash .install-script/fish.sh
 
 # フォントのインストール
 green "Installing font..."
-bash .install/font.sh
+bash .install-script/font.sh
 
 # CLI ファイルマネージャーのインストール
 green "Installing FileManager(CLI)..."
-bash .install/filemanager-cli.sh
+bash .install-script/filemanager-cli.sh
 
 
 # 再起動
