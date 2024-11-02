@@ -32,7 +32,7 @@ bash install-script/font.sh
 
 # CLI ファイルマネージャーのインストール
 green "Installing FileManager(CLI)..."
-bash install-script/filemanager-cli.sh
+bash install-script/filemanager-cli-yazi.sh
 
 
 # 再起動
