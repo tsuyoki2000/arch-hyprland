@@ -5,7 +5,7 @@
 ###########################################################################
 
 # パッケージのインストール
-sudo pacman -Sy ranger highlight sxiv --needed --noconfirm
+sudo pacman -Sy ranger highlight ueberzugpp --needed --noconfirm
 
 # ranger設定ファイルの作成
 ranger --copy-config all
