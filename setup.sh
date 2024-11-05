@@ -64,6 +64,9 @@ bash install-script/hypridle-hyprlock.sh
 
 # wlogout
 
+# 壁紙ツールのインストール
+green "Installing WallPaper Tool..."
+bash install-script/wallpaper-tool.sh
 
 # 再起動
 green "Install Complete."
