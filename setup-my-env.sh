@@ -34,6 +34,9 @@ bash install-script/font.sh
 green "Installing FileManager(CLI)..."
 bash install-script/filemanager-cli-yazi.sh
 
+# starshipのインストール
+green "Installing StarShip..."
+bash install-script/starship.sh
 
 # 再起動
 green "Install Complete."
