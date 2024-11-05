@@ -22,6 +22,9 @@ function green() {
     echo -e "$GREEN$*$NORMAL"
 }
 
+# 一時的に英語化
+export LANG=C
+
 # pacman-conf の編集
 green "Editing pacman.conf..."
 bash install-script/pacman-conf.sh
