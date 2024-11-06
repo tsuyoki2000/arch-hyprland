@@ -28,7 +28,7 @@ mkdir -p $HOME/.config/foot/
 cp /etc/xdg/foot/foot.ini $HOME/.config/foot/
 
 # foot.ini の編集
-sed -i "s/# font=monospace:size=8/font=monospace:size=12/g" $HOME/.config/foot/foot.ini
+sed -i "s/# font=monospace:size=8/font=monospace:size=11/g" $HOME/.config/foot/foot.ini
 sed -i "s/# pad=0x0/pad=5x5/g" $HOME/.config/foot/foot.ini
 
 # /etc/environment にデフォルトアプリとして Neovim を設定
