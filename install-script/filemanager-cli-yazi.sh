@@ -17,13 +17,14 @@ curl https://raw.githubusercontent.com/sxyazi/yazi/main/yazi-config/preset/keyma
 
 # yazi インストール時に提案されるその他のパッケージ
 # - jq：JSONプレビュー
+# - p7zip：圧縮ファイルのプレビュー
 # - ffmpegthumbnailer：ビデオサムネイル
-# - poppler：PDFプレビュー
-# - unarchiver：アーカイブプレビュー
 # - fd：ファイル検索？
 # - ripgrep：ファイル内容検索
-# - fzf：ディレクトリジャンプ
+# - fzf：ディレクトリジャンプ？
+# - poppler：PDFプレビュー
 # - zoxide：ディレクトリジャンプ
+# - imagemagick：フォントプレビュー
 
 
 # 画像プレビューについて
