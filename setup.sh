@@ -29,13 +29,13 @@ export LANG=C
 green "Editing pacman.conf..."
 bash install-script/pacman-conf.sh
 
-# hyprland（最小構成）のインストール
-green "Installing Hyprland Minimal..."
-bash install-script/hyprland-minimal.sh
-
 # yay のインストール
 green "Installing yay-bin..."
 bash install-script/yay-bin.sh
+
+# hyprland（最小構成）のインストール
+green "Installing Hyprland Minimal..."
+bash install-script/hyprland-minimal.sh
 
 # fcitx5 のインストール
 green "Installing fcitx5..."
