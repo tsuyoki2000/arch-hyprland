@@ -26,7 +26,7 @@ sed -i "s/$mainMod, Q, exec, $terminal/$mainMod, RETURN, exec, $terminal/g" $HYP
 # （menu の起動ショートカットを「Super+r」から「Super+Space」に変更）
 sed -i "s/$mainMod, R, exec, $menu/$mainMod, SPACE, exec, $menu/g" $HYPRLAND_CONF
 # （環境変数に EDITOR=nvim を追加）
-sed -i "s/env = HYPRCURSOR_SIZE,24/env = HYPRCURSOR_SIZE,24¥'$'¥nenv = EDITOR,nvim/g" $HYPRLAND_CONF
+sed -i "s/env = HYPRCURSOR_SIZE,24/env = HYPRCURSOR_SIZE,24\'$'\nenv = EDITOR,nvim/g" $HYPRLAND_CONF
 
 # foot の設定ファイルをコピー
 mkdir -p $HOME/.config/foot/
@@ -42,4 +42,4 @@ sed -i "s/# pad=0x0/pad=5x5/g" $HOME/.config/foot/foot.ini
 
 # Hyprland の起動の仕方
 # 通常通り、ArchLinux のコンソールでログイン後、
-# 「$ Hyprland」と入力すれば、起動する。
+# 「Hyprland」と入力すれば、起動する。
