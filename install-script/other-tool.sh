@@ -8,16 +8,16 @@
 # dunst（通知）
 # fzf（曖昧検索）
 # ripgrep（曖昧検索）
-# lxappearance（ウィンドウの外見変更）
-# arc-gtk-theme（テーマ。他にも色々あるので [papirus-icon-theme とか] 試すと良い）
+# nwg-look（ウィンドウの外見変更。lxappearance も一応動作するようだ）
+# orchis-theme（TGKのテーマ。arc-gtk-theme が良かったがAURになってしまった。他にもアイコンで [papirus-icon-theme]とかある）
 PACKAGE="
 dunst
 fzf
 ripgrep
 htop
 fastfetch
-lxappearance
-arc-gtk-theme
+nwg-look
+orchis-theme
 firefox-i18n-ja
 "
 
