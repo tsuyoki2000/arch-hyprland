@@ -23,8 +23,10 @@ sed -i "s/$menu = wofi --show drun/$menu = rofi -show drun/g" $HYPRLAND_CONF
 sed -i "s/kb_options =/kb_options = ctrl:nocaps/g" $HYPRLAND_CONF
 # （ターミナルの起動ショートカットを「Super+q」から「Super+Enter」に変更）
 sed -i "s/$mainMod, Q, exec, $terminal/$mainMod, RETURN, exec, $terminal/g" $HYPRLAND_CONF
-# （wofi の起動ショートカットを「Super+r」から「Super+Space」に変更）
+# （menu の起動ショートカットを「Super+r」から「Super+Space」に変更）
 sed -i "s/$mainMod, R, exec, $menu/$mainMod, SPACE, exec, $menu/g" $HYPRLAND_CONF
+# （環境変数に EDITOR=nvim を追加）
+sed -i "s/env = HYPRCURSOR_SIZE,24/env = HYPRCURSOR_SIZE,24¥'$'¥nenv = EDITOR,nvim/g" $HYPRLAND_CONF
 
 # foot の設定ファイルをコピー
 mkdir -p $HOME/.config/foot/
@@ -34,9 +36,9 @@ cp /etc/xdg/foot/foot.ini $HOME/.config/foot/
 sed -i "s/# font=monospace:size=8/font=monospace:size=12/g" $HOME/.config/foot/foot.ini
 sed -i "s/# pad=0x0/pad=5x5/g" $HOME/.config/foot/foot.ini
 
-# /etc/environment にデフォルトアプリとして Neovim を設定
-ETC_ENV="/etc/environment"
-sudo sh -c "echo EDITOR=nvim >> $ETC_ENV"
+## /etc/environment にデフォルトアプリとして Neovim を設定
+#ETC_ENV="/etc/environment"
+#sudo sh -c "echo EDITOR=nvim >> $ETC_ENV"
 
 # Hyprland の起動の仕方
 # 通常通り、ArchLinux のコンソールでログイン後、
