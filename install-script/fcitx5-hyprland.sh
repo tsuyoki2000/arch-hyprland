@@ -5,9 +5,9 @@
 #########################
 
 # パッケージのインストール
-# fcitx5-im（fcitx5 パッケージ一式）
 # fcitx5-mozc（fcitx5 用の mozc）
-sudo pacman -Sy fcitx5-im fcitx5-mozc --needed --noconfirm
+# fcitx5-configtool（fcitx5の設定ツール。「fcitx5-im」でインストールしても良いが、余計なものまでインストールされる。）
+sudo pacman -Sy fcitx5-mozc fcitx5-configtool --needed --noconfirm
 
 # 自動起動を hyprland.conf に追加
 echo "exec-once = fcitx5" >> $HOME/.config/hypr/hyprland.conf
