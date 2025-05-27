@@ -16,5 +16,6 @@ fi
 sudo pacman -S ripgrep --needed --noconfirm
 
 # Nerd フォントのインストール
-sudo pacman -S ttf-dejavu-nerd --needed --noconfirm
+#sudo pacman -S ttf-dejavu-nerd --needed --noconfirm
+sudo pacman -S ttf-ubuntu-mono-nerd --needed --noconfirm
 
