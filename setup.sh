@@ -37,6 +37,10 @@ bash install-script/yay-bin.sh
 green "Installing Hyprland Minimal..."
 bash install-script/hyprland-minimal.sh
 
+# waybar のインストール
+green "Installing waybar..."
+bash install-script/waybar.sh
+
 # fcitx5 のインストール
 green "Installing fcitx5..."
 bash install-script/fcitx5-hyprland.sh
@@ -48,10 +52,6 @@ bash install-script/filemanager-gui.sh
 # その他のツールのインストール
 green "Installing OtherTool..."
 bash install-script/other-tool.sh
-
-# waybar のインストール
-green "Installing waybar..."
-bash install-script/waybar.sh
 
 # ディスプレイマネージャー（ログインマネージャー）のインストール
 green "Installing DisplayManager..."
