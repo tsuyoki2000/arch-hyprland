@@ -5,7 +5,7 @@
 ################################################################
 
 # 基本パッケージのインストール
-sudo pacman -Syu hyprland foot otf-ipafont rofi-wayland neovim --needed --noconfirm
+sudo pacman -Syu hyprland otf-ipafont foot rofi-wayland neovim --needed --noconfirm
 
 # Hyprland の設定ファイルをコピー
 mkdir -p $HOME/.config/hypr/
