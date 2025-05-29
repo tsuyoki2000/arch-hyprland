@@ -45,7 +45,8 @@ bash install-script/waybar.sh
 green "Installing hypridle and hyprlock..."
 bash install-script/hypridle-hyprlock.sh
 
-# wlogout
+# wlogout のインストール
+
 
 # fcitx5 のインストール
 green "Installing fcitx5..."
