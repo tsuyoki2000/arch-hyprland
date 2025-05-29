@@ -11,6 +11,7 @@ sudo pacman -Sy fcitx5-mozc fcitx5-configtool --needed --noconfirm
 
 # 自動起動を hyprland.conf に追加
 echo "exec-once = fcitx5" >> $HOME/.config/hypr/hyprland.conf
+sed -i 's/# exec-once = $terminal/exec-once = fcitx5\n# exec-once = $terminal/g' $HOME/.config/hypr/hyprland.conf
 
 # 再ログイン
 echo "Re:Login"
