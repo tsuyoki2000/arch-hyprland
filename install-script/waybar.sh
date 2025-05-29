@@ -15,4 +15,5 @@ curl https://raw.githubusercontent.com/Alexays/Waybar/refs/heads/master/resource
 sed -i 's/shutdown",/poweroff",/g' $HOME/.config/waybar/config.jsonc
 
 # 自動起動を hyprland.conf に追加
-echo "exec-once = waybar" >> $HOME/.config/hypr/hyprland.conf
+#echo "exec-once = waybar" >> $HOME/.config/hypr/hyprland.conf
+sed -i 's/# exec-once = nm-applet &/# exec-once = nm-applet \&\nexec-once = waybar",/g' $HOME/.config/hypr/hyprland.conf
