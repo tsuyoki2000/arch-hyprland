@@ -5,6 +5,7 @@
 ####################################################
 
 # パッケージのインストール
+mkdir -p $HOME/.config/wlogout
 yay -Sy wlogout --needed --noconfirm
 
 # 設定ファイルをコピー
