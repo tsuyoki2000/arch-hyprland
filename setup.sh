@@ -41,6 +41,12 @@ bash install-script/hyprland-minimal.sh
 green "Installing waybar..."
 bash install-script/waybar.sh
 
+# hypridle と hyprlock のインストール
+green "Installing hypridle and hyprlock..."
+bash install-script/hypridle-hyprlock.sh
+
+# wlogout
+
 # fcitx5 のインストール
 green "Installing fcitx5..."
 bash install-script/fcitx5-hyprland.sh
@@ -60,12 +66,6 @@ bash install-script/display-manager.sh
 # NvChad（Neovim のディストリビューション）のインストール
 green "Installing NvChad..."
 bash install-script/neovim-nvchad.sh
-
-# hypridle と hyprlock のインストール
-green "Installing hypridle and hyprlock..."
-bash install-script/hypridle-hyprlock.sh
-
-# wlogout
 
 # 壁紙ツールのインストール
 green "Installing WallPaper Tool..."
