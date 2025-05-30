@@ -15,4 +15,4 @@ cp /usr/share/hypr/hyprlock.conf $HOME/.config/hypr/
 
 # 自動起動を hyprland.conf に追加
 #echo "exec-once = hypridle" >> $HOME/.config/hypr/hyprland.conf
-sed -i "s/# exec-once = $terminal/exec-once = hypridle\n# exec-once = $terminal/g" $HOME/.config/hypr/hyprland.conf
+sed -i 's/# exec-once = $terminal/exec-once = hypridle\n# exec-once = $terminal/g' $HOME/.config/hypr/hyprland.conf
