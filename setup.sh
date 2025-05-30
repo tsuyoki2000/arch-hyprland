@@ -41,13 +41,13 @@ bash install-script/hyprland-minimal.sh
 green "Installing waybar..."
 bash install-script/waybar.sh
 
-# wlogout のインストール
-green "Installing wlogout..."
-bash install-script/wlogout.sh
-
 # hypridle と hyprlock のインストール
 green "Installing hypridle and hyprlock..."
 bash install-script/hypridle-hyprlock.sh
+
+# wlogout のインストール
+green "Installing wlogout..."
+bash install-script/wlogout.sh
 
 # fcitx5 のインストール
 green "Installing fcitx5..."
